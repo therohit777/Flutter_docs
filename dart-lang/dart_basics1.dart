@@ -30,12 +30,12 @@
   // 1. String: prefer using Double quotes("").
   // 2. Number: int.
   // 3. Decimal: double.(can store int values but not int in vice versa).
-  // 4. Boolean: True/False
+  // 4. Boolean: bool (True/False)
 
   //Note: 1. All datatypes in dart language are accepted as objects
   //         and their default values are null.
   //      2. If we don't wanna specify datatype we can use var.
-  //      3. Printing inside double double quotes variable: print("$name is a good boy")       
+  //      3. Printing dynamic string inside double quotes variable: print("$name is a good boy")       
   //      4. Nullable types: String? , int? , bool? , double?
 
 
