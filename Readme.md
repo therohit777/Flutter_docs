@@ -16,6 +16,10 @@
 9. **Function in Dart**
 10. **FAT arrow Functions**
 11. **Optional and Named parameters**
+12. **Lists in Dart: Dynamic and fixed length**
+13. **Sets in Dart**
+14. **Maps in Dart**
+
 
 ---
 
