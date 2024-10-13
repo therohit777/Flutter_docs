@@ -232,3 +232,80 @@
   // }
 
   // Note: always add a default value while using the optional and default parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// List:
+//     2types:
+//            1. Fixed-length List
+//            2. Dynamic-Length List
+//
+//    List Creation:(Fixed Length) 
+//     void main(List<String> args){
+//       // Fixed Length: (4 is the length and "india" is the default String value assigned.) 
+//        List<String> country = List<String>.filled(4, "india"); 
+//        country[1] = "United States";
+//        country[2] = "United Kingdom";
+//        country[3] = "United Arab Emirates";       
+//        for(String countryName in country){
+//         print(countryName);
+//        }
+//     }
+
+//    List :(Dynamic Length) 
+//          1. creation: List<String> country = []; 
+//          2. Add new element: country.add ("India");
+//          3. Accesing element: country[index value];
+//          4. Indexing: 0 - n-1;
+//          5. Length: country.length; 
+//          6. Deleting all elements: country.clear();
+//          7. Deleting first occurence of a value: country.remove("India")
+//          8. Deleting indexwise: country.removeAt(index value);
+//          9. Empty Check: country.isEmpty();
+//          10.reversing list: country.reversed;// temporary change
+//          11. Finding element in a list: country.contains("India")
+
+
+
+//  SET in Dart:
+//     Uniquely stores a value/element inside it and has no concept of indexing in it.
+
+//     METHODS IN SETS:
+//     1. Creation: Set<int> age = Set();
+//     2. Add new elements: age.add(10);
+//     3. Finding element in set: age.contains(10);
+//     4. remove elements from set: age.remove(10);
+//     5. convert list to set: age.addAll(Listname);
+//     6. Accessing set values: for(int i in age){print(i);}
+
+
+
+// MAPS in Dart: 
+//    Stores data in key-value pair in a unordered way. (like a dictionary)
+//    METHODS IN MAPS:
+//       1. creation:  Map<String> country = Map();
+//                     country = {1: "India", 2:"USA", 3:"UK"};              
+//       2. Get Keys: country.keys
+//       3. Get Values: country.values
+
+
+// Spread Operators(...): 
+      // "..." used to spread the list/map/sets inner elements.   
+      // Example:
+        // var List1 =[1,2,3,4];
+        // var List2 =[5,6,7,8];
+        // var List3 =[9,10,11,12];
+        // var BigList = [...List1,...List2,...List3]; 
+
+// 
